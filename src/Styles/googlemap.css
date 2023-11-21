@@ -1,0 +1,44 @@
+.form_parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px lightgray;
+    border-radius: 8px ;
+    background-color: white;
+}
+.heading_map{
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.submit_button{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin: 10px;
+}
+.gmap_input{
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin-right: 20px;
+    border-radius: 7px;
+    margin: 10px;
+}
+.gmap_input:focus{
+    border: 1px solid blue !important;
+}
+.googlemap_div{
+margin: 20px;
+}
+@media(max-width:400px){
+    .sec_parent_div{
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100%;
+
+    }
+}
